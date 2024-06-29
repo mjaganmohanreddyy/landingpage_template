@@ -7,7 +7,7 @@ export default function Pricing(){
     <section id="pricing" className=" max-w-5xl mx-auto py-10">
     <div className=" flex flex-col gap-y-5">
     <h3 className="text-2xl md:text-3xl lg:text-4xl max-w-xs mx-auto md:max-w-lg text-center font-bold leading-[1.15] text-primarydark">
-    Don't wait, sign up now and get 50% off your first month!
+    Don &apos; t wait, sign up now and get 50% off your first month!
     </h3>
     </div>
 
