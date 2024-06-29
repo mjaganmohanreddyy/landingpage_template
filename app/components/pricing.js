@@ -44,11 +44,11 @@ export default function Pricing(){
     </div>
     <div className="flex gap-x-3">
       <Image src={Icon}alt="" width={20} height={20}/>
-      <p className="  text-sm font-medium">Everything in 'Job Board'</p>
+      <p className="  text-sm font-medium">Everything in &apos;Job Board&apos;</p>
     </div>
     <div className="flex gap-x-3">
       <Image src={Icon}alt="" width={20} height={20}/>
-      <p className="  text-sm font-medium">Everything in 'Designer Search'</p>
+      <p className="  text-sm font-medium">Everything in &apos;Designer Search&apos;</p>
     </div>
     <button className="my-2 flex text-base lg:text-lg items-center justify-center rounded-full h-12 w-full font-bold border border-white hover:shadow hover:ring-offset-4 hover:ring-offset-secondarydark/20 hover:ring-2 hover:ring-transparent drop-shadow transition duration-200 active:scale-95 bg-[#000000] text-white">
     <span className="tracking-tight">Choose Plan</span>
@@ -111,11 +111,11 @@ export default function Pricing(){
                     </div>
                     <div className="flex gap-x-3">
                 <Image src={Icon}alt="" width={20} height={20}/>
-                <p className="  text-sm font-medium">Everything in 'Job Board'</p>
+                <p className="  text-sm font-medium">Everything in &apos;Job Board&apos;</p>
                     </div>
                     <div className="flex gap-x-3">
                     <Image src={Icon}alt="" width={20} height={20}/>
-                    <p className="  text-sm font-medium">Everything in 'Designer Search'</p>
+                    <p className="  text-sm font-medium">Everything in &apos;Designer Search&apos;</p>
                     </div>
                     <button className="my-2 flex text-base lg:text-lg items-center justify-center rounded-full h-12 w-full font-bold border border-white hover:shadow hover:ring-offset-4  hover:ring-2 hover:ring-transparent drop-shadow transition duration-200 active:scale-95 bg-[#000000] text-white">
                     <span className="tracking-tight">Choose Plan</span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" className="ml-2" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path></svg>
