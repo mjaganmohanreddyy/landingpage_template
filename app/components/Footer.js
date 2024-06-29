@@ -1,5 +1,5 @@
 import Image from "next/image"
-import logo from "@/icons/hornicon.svg";
+import logo from "../../icons/hornicon.svg";
 
 export default function Footer(){
     return(
@@ -7,7 +7,7 @@ export default function Footer(){
             <div className="max-w-5xl mx-auto pb-5">
                 <div className="flex items-center justify-between gap-x-5">
                     <div className="header-logo flex items-center space-x-2">
-                    <Image
+              <Image
               src={logo}
               alt="Marketing Hub"
               className="w-8"
