@@ -44,11 +44,11 @@ export default function Pricing(){
     </div>
     <div className="flex gap-x-3">
       <Image src={Icon}alt="" width={20} height={20}/>
-      <p className="  text-sm font-medium">Everything in &apos;Job Board&apos;</p>
+      <p className="  text-sm font-medium">Everything in {`'Job Board' `}</p>
     </div>
     <div className="flex gap-x-3">
       <Image src={Icon}alt="" width={20} height={20}/>
-      <p className="  text-sm font-medium">Everything in &apos;Designer Search&apos;</p>
+      <p className="  text-sm font-medium">Everything in {`'Designer Search' `}</p>
     </div>
     <button className="my-2 flex text-base lg:text-lg items-center justify-center rounded-full h-12 w-full font-bold border border-white hover:shadow hover:ring-offset-4 hover:ring-offset-secondarydark/20 hover:ring-2 hover:ring-transparent drop-shadow transition duration-200 active:scale-95 bg-[#000000] text-white">
     <span className="tracking-tight">Choose Plan</span>
@@ -82,7 +82,7 @@ export default function Pricing(){
                 <p class="  text-sm font-medium">Swap out listings as needed</p>
                 </div>
                 <div class="flex gap-x-3"><Image src={Icon}alt="" width={20} height={20}/>
-                <p class="  text-sm font-medium">Average of 1.1K targeted clicks/mo</p>
+                <p class="  text-sm font-medium">Average of 1.1K targeted clicks/month</p>
                 </div><div class="flex gap-x-3">
                     <Image src={Icon}alt="" width={20} height={20}/><p>Full-Time or Freelance Hiring</p>
                 </div>
@@ -106,19 +106,21 @@ export default function Pricing(){
                 <p>For Individuals and Small Teams</p>
                 </div><p className="text-3xl font-semibold">Custom pricing</p>
                 </div><div><div className=" flex flex-col gap-y-2.5">
-                    <div className="flex flex-col gap-y-1"><p className="font-bold">Include</p>
+                    <div className="flex flex-col gap-y-1">
+                    <p className="font-bold">Include</p>
                     <p className="font-semibold text-slate-500 text-sm">Everything you get in this plan</p>
                     </div>
                     <div className="flex gap-x-3">
                 <Image src={Icon}alt="" width={20} height={20}/>
-                <p className="  text-sm font-medium">Everything in &apos;Job Board&apos;</p>
+                <p className="  text-sm font-medium">Everything in {` 'Job Board' `}</p>
                     </div>
                     <div className="flex gap-x-3">
                     <Image src={Icon}alt="" width={20} height={20}/>
-                    <p className="  text-sm font-medium">Everything in &apos;Designer Search&apos;</p>
+                    <p className="  text-sm font-medium">Everything in {` 'Designer Search' `}</p>
                     </div>
                     <button className="my-2 flex text-base lg:text-lg items-center justify-center rounded-full h-12 w-full font-bold border border-white hover:shadow hover:ring-offset-4  hover:ring-2 hover:ring-transparent drop-shadow transition duration-200 active:scale-95 bg-[#000000] text-white">
-                    <span className="tracking-tight">Choose Plan</span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" className="ml-2" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path></svg>
+                    <span className="tracking-tight">Choose Plan</span>
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" className="ml-2" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path></svg>
                     </button></div></div></div></div>
 
     </section>
